@@ -1,0 +1,7 @@
+.env
+__pycache__/
+*.pyc
+.streamlit/secrets.toml
+# local fallback storage; GitHub storage is recommended for Streamlit Cloud
+# remove this line if you intentionally want to commit local data files
+data/*.csv
